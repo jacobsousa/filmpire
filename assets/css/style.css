@@ -1,0 +1,207 @@
+h1{
+  padding: 60px;
+}
+
+.search-bar{
+  text-align: center!important;
+  padding-top: 3rem!important;
+  padding-bottom: 15rem!important;
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+  
+}
+
+#moviePoster{
+  background-color: white 80%;
+  flex: 0 0 400px;
+  margin: 40px;
+  color: white;   
+  
+}
+
+#moviePoster:hover{
+  box-shadow: 0px 8px 30px white;
+}
+
+
+#error{
+  color:white;
+  text-align: center;
+}
+
+#movie-list img{
+  width: 40vh;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.poster-div{
+  padding: 0px;
+}
+
+body{
+  background: rgb(166,123,116);
+  background: linear-gradient(90deg, rgba(166,123,116,1) 5%, rgba(94,1,19,1) 85%);
+}
+
+#jumbotron {
+  background-image: url("./images/jumbotron2.JPG");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #ffffff;
+}
+
+
+#movieBackground {
+  padding: 50px 0px;
+  width: 90%;
+}
+
+#movieDetails {
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+   
+}
+
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight:bold
+}
+
+a:hover {
+    box-shadow: 0px 8px 30px black
+}
+
+
+a h5{
+    padding-top: 5px;
+    /*border-top: solid black 2px;*/
+    margin-top: 3px;
+    
+}
+
+#movieDetails {
+    padding: 25px;
+}
+
+
+/* SEARCH PAGE */
+#jumbotron-mini {
+  background-image: url("./images/jumbotron-mini.jpg");
+  background-size: cover;
+  height: 20vh;
+  color: #ffffff;
+}
+
+
+#imdbPoster {
+  background-color: white;
+  flex: 0 0 400px;
+  /* padding:5%; */
+}
+
+#imdbPoster img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vw;
+  height: 85vh;
+  object-fit: cover;
+  padding:5%;
+  flex: 0 0 400px;
+
+}
+
+#watchNow {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  color: white;
+  font-style: bold;
+}
+
+#imdbLink {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: white;
+}
+
+#moviePlot{
+  margin-bottom: 40px;
+}
+
+#mainBody{
+  margin-top:50px;
+  padding-top: 30px;
+  background-color: white;
+  width: 95%;
+  margin-bottom: 100px;
+}
+
+#moviePlot{
+  width: 80%;
+}
+
+#upcomingMovies{
+  width: 95%;
+  color: white;
+}
+
+h2{
+  justify-content: center;
+}
+
+/* Upcoming Movies Section */
+
+h4{
+  color:white;
+}
+
+#movie-list{
+  display: flex;
+}
+
+.movie-card{
+  flex: 0 0 400px;
+  padding: 20px;
+  color: white;
+}
+
+.movie-card:hover{
+  box-shadow: 0px 8px 30px white;
+}
+
+
+#upcomingMovies{
+  padding-top: 50px;
+  
+}
+
+#upcomingList{
+  padding-top: 50px;
+  
+}
+
+/* MOVIE RECOMMENDATIONS SECTION */
+
+h5{
+  color:white;
+}
+
+#recMovies{
+  padding-top: 50px;
+  
+}
+
+#recList{
+  padding-top: 50px;
+  
+}
